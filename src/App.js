@@ -19,6 +19,8 @@ class App extends Component {
     alert: null
   };
 
+  // this is going to be refactored with hooks and context api
+
   // SEARCH FOR & GET GH USERS
   searchUsers = async text => {
     this.setState({ loading: true });
